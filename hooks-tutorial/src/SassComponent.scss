@@ -1,0 +1,45 @@
+@import './styles/utils';
+
+.SassComponent{
+    display: flex;
+    background: $oc-gray-2;
+    @include media('<768px'){
+        background: $oc-gray-9;
+    }
+    .box{
+        background: red;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        &.red{
+            background: $red;
+            @include square(1);
+        }
+        &.orange{
+            background: $orange;
+            @include square(1);
+        }
+        &.yellow{
+            background: $yellow;
+            @include square(2);
+        }
+        &.green{
+            background: $green;
+            @include square(2);
+        }
+        &.blue{
+            background: $blue;
+            @include square(3);
+        }
+        &.indigo{
+            background: $indigo;
+            @include square(3);
+        }
+        &.violet{
+            background: $violet;
+            @include square(4);
+        }
+        &:hover{
+            background: black;
+        }
+    }
+}

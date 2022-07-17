@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "include-media": "^1.4.10",
+    "node-sass": "^7.0.1",
+    "open-color": "^1.9.1",
+    "react-virtualized": "^9.22.3",
+    "styled-components": "^5.3.5"
+  }
+}
