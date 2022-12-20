@@ -1,10 +1,17 @@
 {
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.11",
     "classnames": "^2.3.1",
+    "dotenv": "^16.0.3",
     "include-media": "^1.4.10",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
     "node-sass": "^7.0.1",
     "open-color": "^1.9.1",
     "react-virtualized": "^9.22.3",
+    "redux": "^4.2.0",
     "styled-components": "^5.3.5"
   }
 }
